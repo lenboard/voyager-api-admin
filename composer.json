@@ -1,0 +1,20 @@
+{
+    "name": "lenboard/voyager-api-admin",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "require": {
+        "tcg/voyager": "1.1.2",
+        "arrilot/laravel-widgets": "3.12"
+    },
+    "authors": [
+        {
+            "name": "Evgeniy",
+            "email": "evgeniy.bublik1992@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lenboard\\VoyagerApiAdmin\\": ""
+        }
+    }
+}

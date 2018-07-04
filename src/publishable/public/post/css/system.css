@@ -1,0 +1,132 @@
+*{margin:0;padding:0}
+html,body,div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-weight:normal}
+
+
+/*p{color:#676d72;font-size:16.67px;line-height:25px;margin-bottom:20px}*/
+a{color:#1875a0}
+
+/*a:hover{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}*/
+
+input[type="text"]:focus,input[type="submit"]:focus,input[type="password"]:focus,textarea:focus{outline:0}
+.block{display:block}
+.center{text-align:center;margin:0 auto}
+.hide{display:none !important}
+
+.f_left{float:left !important}
+.f_right{float:right !important}
+
+.clear{clear:both}
+.ui_clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+
+label.input-validation-error{color:red;font-size:14px;display:block;text-align:left;margin-left:50px;font-family:'arial-regular'}
+.input-validation-error[type="text"],.input-validation-error[type="password"],.input-validation-error[type="email"],textarea.input-validation-error{border:1px solid #f00 !important;color:#f00 !important}
+
+.section{width:1024px;margin:0 auto;z-index:1;position:relative}
+.section_big{width:1230px;margin:0 auto;z-index:1;position:relative}
+
+.small_loader_absolute{position:absolute;left:-100px;top:0;width:16px;height:16px;background:url(../images/loader_min4.gif) center center no-repeat;z-index:99999}
+
+.small_loader_absolute_white_bg{position:absolute;left:-100px;top:0;width:16px;height:16px;background:rgba(255,255,255,0.8) url(../images/loader_min4@2x.gif) center center no-repeat;z-index:99999}
+
+    
+textarea{
+outline:none;
+}
+a{
+    text-decoration:none;
+}
+/* HTML5 display-role reset for older browsers */
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+body {
+    font: 12px/18px Arial, sans-serif;  
+}
+.over{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+}
+.wrapper{
+}
+.block{
+	display: block !important;
+}
+.d-table{
+	display: table;
+}
+.transition{
+	-webkit-transition: 0.4s;
+	   -moz-transition: 0.4s;
+	    -ms-transition: 0.4s;
+	     -o-transition: 0.4s;
+	        transition: 0.4s;
+}
+@font-face {
+font-family: 'RobotoRegular';
+src: url('../fonts/RobotoRegular.eot');
+src: url('../fonts/RobotoRegular.eot?') format('embedded-opentype'),
+url('../fonts/RobotoRegular.ttf') format('truetype'),
+url('../fonts/RobotoRegular.svg') format('svg'),
+url('../fonts/RobotoRegular.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'RobotoLight';
+src: url('../fonts/RobotoLight.eot');
+src: url('../fonts/RobotoLight.eot?') format('embedded-opentype'),
+url('../fonts/RobotoLight.ttf') format('truetype'),
+url('../fonts/RobotoLight.svg') format('svg'),
+url('../fonts/RobotoLight.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'RobotoBlack';
+src: url('../fonts/RobotoBlack.eot');
+src: url('../fonts/RobotoBlack.eot?') format('embedded-opentype'),
+url('../fonts/RobotoBlack.ttf') format('truetype'),
+url('../fonts/RobotoBlack.svg') format('svg'),
+url('../fonts/RobotoBlack.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'RobotoMedium';
+src: url('../fonts/RobotoMedium.eot');
+src: url('../fonts/RobotoMedium.eot?') format('embedded-opentype'),
+url('../fonts/RobotoMedium.ttf') format('truetype'),
+url('../fonts/RobotoMedium.svg') format('svg'),
+url('../fonts/RobotoMedium.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'RobotoThin';
+src: url('../fonts/RobotoThin.eot');
+src: url('../fonts/RobotoThin.eot?') format('embedded-opentype'),
+url('../fonts/RobotoThin.ttf') format('truetype'),
+url('../fonts/RobotoThin.svg') format('svg'),
+url('../fonts/RobotoThin.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'RobotoBold';
+src: url('../fonts/RobotoBold.eot');
+src: url('../fonts/RobotoBold.eot?') format('embedded-opentype'),
+url('../fonts/RobotoBold.ttf') format('truetype'),
+url('../fonts/RobotoBold.svg') format('svg'),
+url('../fonts/RobotoBold.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+
+
